@@ -1,14 +1,21 @@
+import { HiMiniXCircle } from "react-icons/hi2";
+
 export default function Item({ item, onDeletedItems, onToggleItems }) {
   return (
     <li>
       <input
-        type="checkbox"
+        type='checkbox'
         value={item.packed}
         onChange={() => onToggleItems(item.id)}
       />
       <span style={item.packed ? { textDecoration: "line-through" } : {}}>
-        {item.quantity} {item.description}{" "}
-        {<button onClick={() => onDeletedItems(item.id)}>❌</button>}
+        <span className='number'>{item.quantity}</span>
+        <span>{item.description} </span>
+        {
+          <button onClick={() => onDeletedItems(item.id)} className='close'>
+            <HiMiniXCircle />
+          </button>
+        }
       </span>
     </li>
   );
