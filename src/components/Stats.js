@@ -33,7 +33,12 @@ export default function Stats({ item }) {
   if (!item.length) {
     return (
       <p className='stats'>
-        <em>Start Adding Some Items To Your Packing List 🚀</em>
+        <em>
+          <span>Start Adding Some Items To Your Packing List </span>
+          <span>
+            <HiMiniRocketLaunch />
+          </span>
+        </em>
       </p>
     );
   }
