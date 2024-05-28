@@ -39,7 +39,7 @@ h1 {
 }
 
 .add-form {
-  background-color: rgba(31, 120, 180, 0.5);
+  background-color: lightgray;
   /* Fixed rgba syntax */
   padding: 1rem 0;
   display: flex;
