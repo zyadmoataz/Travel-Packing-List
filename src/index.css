@@ -13,7 +13,7 @@ html {
 body {
   font-size: 2.4rem;
   font-family: sans-serif;
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
   font-family: "Quicksand";
   font-weight: 500;
 }
@@ -27,7 +27,7 @@ body {
 
 h1 {
   text-align: center;
-  background: linear-gradient(to right top, #240750, #344C64);
+  background: linear-gradient(to right top, #4D869C, #7AB2B2);
   color: whitesmoke;
   font-family: "Monoton";
   font-size: 6rem;
@@ -39,8 +39,8 @@ h1 {
 }
 
 .add-form {
-  background-color: lightgray;
-  /* Fixed rgba syntax */
+  /* background-color: lightgray; */
+  background: linear-gradient(to right top, #92C7CF, #FBF9F1);
   padding: 1rem 0;
   display: flex;
   align-items: center;
@@ -50,14 +50,15 @@ h1 {
 
 h3 {
   font-size: 2.5rem;
+  color: #4D869C;
 }
 
 button,
 select,
 input {
   box-shadow: 0 3px 5px rgba(0, 3, 66, 0.1);
-  background-color: #a7c7e7;
-  color: #240750;
+  background-color: #4D869C;
+  color: #CDE8E5;
   font-family: inherit;
   border: none;
   border-radius: 10rem;
@@ -86,7 +87,7 @@ input {
 }
 
 .list {
-  background-color: lightgray;
+  background-color: #F2EFE5;
   color: #240750;
   padding: 3rem 0;
   display: flex;
@@ -116,10 +117,10 @@ input {
 
 .list ul {
   box-shadow: 0 3px 8px rgba(0, 3, 66, 0.1);
-  background-color: white;
+  background-color: #CDE8E5;
   padding: 2rem;
-  border-radius: 2rem;
-  min-height: 75%;
+  border-radius: 1rem;
+  min-height: 80%;
   list-style: none;
   width: 75%;
   display: flex;
@@ -133,15 +134,16 @@ input {
   display: inline-block;
   max-width: 1300px;
   overflow: auto;
-  border: 1px solid lightgray;
+  border: 1px solid #7AB2B2;
   width: fit-content;
   height: fit-content;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 10rem;
-  background-color: whitesmoke;
+  background-color: #EEF7FF;
   font-weight: 400;
   cursor: pointer;
   transition: all 0.3s;
+  color: #7AB2B2;
 }
 
 .list li:hover {
@@ -172,7 +174,9 @@ input[type="checkbox"] {
 }
 
 .stats {
-  background: linear-gradient(to right top, #344C64, #577B8D);
+  /* background: linear-gradient(to right top, #344C64, #577B8D); */
+  /* background: linear-gradient(to right top, #240750, #344C64); */
+  background: linear-gradient(to right top, #4D869C, #7AB2B2);
   color: whitesmoke;
   text-align: center;
   font-weight: 700;
